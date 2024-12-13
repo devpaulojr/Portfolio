@@ -266,13 +266,14 @@ header.sticky{
 .lista-alternativas {
     list-style-type: decimal;
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 16px;
 
 }
 
 
 .btn-toggle {
     margin-top: 1px;
+    margin-bottom: 30px;
     margin-left: 30px;
     padding: 10px 20px;
     font-size: 14px;
