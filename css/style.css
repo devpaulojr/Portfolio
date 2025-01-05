@@ -405,7 +405,12 @@ header.sticky{
 
 @media (max-width: 450px) {
     html, body {
-        font-size: 10px;
+        font-size: 7px;
+        .btn-toggle{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
     }
 
     p {
