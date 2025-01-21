@@ -389,34 +389,40 @@ header.sticky{
         font-size: 15px;
     }
 
+    .btn-toggle {
+        margin-right: 30px;
+    }
 }
 
 @media (max-width: 650px) {
-    html, body {
-        font-size: 14px;
-    }
-    
     .point {
         min-width: 12px;
         height: 12px;
     }
 
+    html, body {
+        font-size: 14px;
+    }
+
+    .btn-toggle {
+        margin-right: 30px;
+    }
 }
 
 @media (max-width: 450px) {
     html, body {
-        font-size: 7px;
-        .btn-toggle{
-            display: flex;
-            justify-content: center;
-            align-items: center; 
-        }
+        font-size: 12px; 
+    }
+
+    .btn-toggle {
+        margin-right: 30px;
     }
 
     p {
         padding: 10px !important;
     }
 }
+
 
 .timeline ul li .content {
     width: 50%;
